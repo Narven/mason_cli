@@ -3,8 +3,24 @@ name = "mason_cli"
 version = "0.1.0"
 edition = "2021"
 authors = ["Pedro Luz <pedromsluz@gmail.com>"]
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+include = [
+  "src/**/*",
+  "Cargo.toml",
+  "README.md"
+]
+homepage = "https://github.com/Narven/mason_cli"
+repository = "https://github.com/Narven/mason_cli"
+description = "Mason CLI allows developers to create and use reusable templates."
+keywords = [
+  "cli",
+  "generator",
+  "command-line",
+  "templates",
+  "tool"
+]
+categories = [
+  "command-line-interface"
+]
 
 [dependencies]
 clap = "3.2.22"
